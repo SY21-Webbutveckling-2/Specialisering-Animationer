@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+
+	overflow: hidden;
+}
+
+.ball {
+	position: absolute;
+
+	width: 100px;
+	height: 100px;
+
+	border: 2px solid black;
+	border-radius: 50%;
+
+	transform: translate(-50%, -50%);
+}
+
+#ball1 {
+	background-color: aqua;
+}
+
+#ball2 {
+	background-color: yellow;
+}
+
+#ball3 {
+	background-color: red;
+}
+
+#ball4 {
+	background-color: green;
+}
