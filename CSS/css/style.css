@@ -1,0 +1,50 @@
+#box {
+	position: absolute;
+
+	width: 10rem;
+	height: 10rem;
+
+	background-color: aquamarine;
+
+	animation-name: example;
+	animation-duration: 2s;
+	/* animation-delay: 2s; */
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;
+}
+
+#box2 {
+	position: absolute;
+	left: 50rem;
+
+	width: 5rem;
+	height: 7rem;
+
+	border-radius: 50%;
+
+	background-color: black;
+
+	animation-name: example;
+	animation-duration: 3s;
+	animation-iteration-count: 5;
+}
+
+@keyframes example {
+	0% {
+		background-color: red;
+		top: 0;
+	}
+
+	33% {
+		top: 5rem;
+	}
+
+	50% {
+		background-color: blue;
+	}
+
+	100% {
+		background-color: yellow;
+		top: 30rem;
+	}
+}
